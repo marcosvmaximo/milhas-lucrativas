@@ -1,0 +1,43 @@
+.banner {
+  background: var(--background);
+  padding: 2rem 0;
+  border-bottom: 1px dotted #747474;
+}
+
+.banner-line {
+  display: block;
+  background-color: var(--primary);
+  color: var(--background);
+  padding: 0.875rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.banner-line span {
+  font-weight: bold;
+}
+
+.banner-info {
+  color: var(--primary);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  padding: 1rem 5rem;
+}
+
+/* Media Querys */
+
+@media (max-width: 700px) {
+  .banner-line {
+    font-size: 1rem;
+    padding: 2rem;
+  }
+
+  .banner-info {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}

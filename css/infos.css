@@ -1,0 +1,71 @@
+.info {
+  padding: 5rem 3.5rem;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 1.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.info h3 {
+  font-size: 1.875rem;
+  color: var(--primary);
+  margin-bottom: 3rem;
+}
+
+.info p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Call */
+
+.call {
+  padding-bottom: 5rem;
+}
+
+.call-line {
+  background: var(--primary);
+  color: var(--background) !important;
+  font-weight: normal;
+  padding: 1.875rem 5rem;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.call p {
+  text-align: center;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  padding: 20px 0 15px 0;
+}
+
+@media (max-width: 700px) {
+  .info h2,
+  .info h3,
+  .call-line,
+  .call .button {
+    font-size: 1.25rem;
+  }
+
+  .call p,
+  info p {
+    font-size: 1rem;
+  }
+
+  .call-line {
+    padding: 15px;
+  }
+  .info {
+    padding: 5rem 10px;
+  }
+
+  .call .button {
+    margin: 0 auto;
+  }
+}
